@@ -3,7 +3,7 @@ use chrono::Local;
 
 #[get("/")]
 async fn hello() -> impl Responder {
-    HttpResponse::Ok().body("Hello Brayckner's Computer!")
+    HttpResponse::Ok().body("Hello Mya")
 }
 
 #[post("/echo")]
